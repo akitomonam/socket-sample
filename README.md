@@ -10,3 +10,5 @@ python3 server.py
 python3 client.py
 ```
 クライアントの入力から始まる
+## 参考
+https://algorithm.joho.info/programming/python/socket-tcp-ip-chat-1-on-1/
