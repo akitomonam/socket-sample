@@ -3,11 +3,11 @@
 ## 実行方法(ローカルで実験)
 クライアント側(フロントエンド)
 ```
-nohup python3 server2server.py &
+nohup python3 server2server.py & > nohup_client.log &
 ```
 サーバー側(バックエンド)
 ```
-nohup python3 client_try_connect.py &
+nohup python3 client_try_connect.py & > nohup_server.log &
 ```
 クライアント側(フロントエンド)
 ```
